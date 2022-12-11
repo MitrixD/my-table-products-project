@@ -1,15 +1,14 @@
 {
-  "name": "test-tables-project",
+  "name": "my-table-products-project",
   "version": "1.0.0",
   "private": true,
-  "description": "Test table project.",
+  "description": "Test project with simple table of products and mock json-server.",
   "main": "index.tsx",
   "keywords": [],
   "author": "Krementsov D.A.",
   "license": "ISC",
   "scripts": {
     "start": "concurrently \"npm run start:dev\" \"npm run start:dev:server\"",
-    "start:old": "webpack serve --env --port 3005",
     "start:dev": "webpack-dev-server --env --host 0.0.0.0 --port 3000",
     "start:dev:server": "json-server --watch ./src/api/db.json --port 8000",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",

@@ -1,0 +1,109 @@
+{
+  "documents1": [
+    {
+      "id": "c7098491-76e6-4721-a024-eec751b9fa57",
+      "status": "active",
+      "sum": 22,
+      "qty": 13,
+      "volume": 1,
+      "name": "Doc 21",
+      "delivery_date": "2022-09-15",
+      "currency": "EUR"
+    },
+    {
+      "id": "74b0c928-8b50-4561-9669-a12f6e65d7de",
+      "status": "archive",
+      "sum": 33,
+      "qty": 121,
+      "volume": 2,
+      "name": "Tome 321",
+      "delivery_date": "2022-07-16",
+      "currency": "RUB"
+    },
+    {
+      "id": "30aa7b69-b9dc-42b8-a4b9-2af8e2b47d50",
+      "status": "archive",
+      "sum": 44,
+      "qty": 111,
+      "volume": 3,
+      "name": "Doc 883",
+      "delivery_date": "2022-04-02",
+      "currency": "USD"
+    },
+    {
+      "id": "93fc81a6-84cb-4894-926e-d45a66775ba0",
+      "status": "active",
+      "sum": 55,
+      "qty": 221,
+      "volume": 4,
+      "name": "Doc 555",
+      "delivery_date": "2022-01-03",
+      "currency": "EUR"
+    },
+    {
+      "id": "76b82219-e010-4474-a36d-f65c1465d9f9",
+      "status": "archive",
+      "sum": 66,
+      "qty": 40,
+      "volume": 44,
+      "name": "Doc 981A",
+      "delivery_date": "2022-03-23",
+      "currency": "USD"
+    }
+  ],
+  "documents2": [
+    {
+      "id": "2bf9b568-e483-4a03-acb3-3786bd10aa11",
+      "status": "active",
+      "sum": 77,
+      "qty": 55,
+      "volume": 5,
+      "name": "443 Doc",
+      "delivery_date": "2022-07-30",
+      "currency": "AMD"
+    },
+    {
+      "id": "4ad3857f-00bd-4f41-a249-1af208579a9f",
+      "status": "archive",
+      "sum": 88,
+      "qty": 99,
+      "volume": 6,
+      "name": "Doc 221",
+      "delivery_date": "2022-11-01",
+      "currency": "HKD"
+    },
+    {
+      "id": "fd651b6f-8bda-4d1f-b140-173accbf6066",
+      "status": "archive",
+      "sum": 99,
+      "qty": 39,
+      "volume": 7,
+      "name": "Doc 001",
+      "delivery_date": "2022-05-08",
+      "currency": "AUD"
+    },
+    {
+      "id": "cedf56cb-c382-4084-ba73-3eec9a1a35e8",
+      "status": "active",
+      "sum": 2,
+      "qty": 110,
+      "volume": 8,
+      "name": "Doc43",
+      "delivery_date": "2022-02-15",
+      "currency": "EUR"
+    },
+    {
+      "id": "9e845d01-d2c9-403e-aeb4-a0d399ee5de7",
+      "status": "active",
+      "sum": 2,
+      "qty": 150,
+      "volume": 9,
+      "name": "Doc 39021",
+      "delivery_date": "2022-02-08",
+      "currency": "EUR"
+    }
+  ],
+  "cancel": {
+    "ids": []
+  }
+}

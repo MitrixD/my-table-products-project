@@ -6,6 +6,7 @@ interface ProductsState {
   productsData: ProductsData[];
   error: any;
   isLoading: boolean;
+
   isOpenPopup: boolean;
 }
 
@@ -14,12 +15,14 @@ const initialState: ProductsState = {
   productsData: [],
   isLoading: false,
   error: '',
-  isOpenPopup: false
+  isOpenPopup: false,
 };
 
 export const productsSlice = createSlice({
   name: 'products',
+
   initialState,
+
   reducers: {
     selectProducts(state, action: PayloadAction<string[]>) {
       state.selectedIds = action.payload;
@@ -29,6 +32,7 @@ export const productsSlice = createSlice({
       state.isLoading = false;
       state.productsData = action.payload;
     },
+
     productsFetchingError(state, action: PayloadAction<any>) {
       state.error = action.payload;
       state.isLoading = false;
@@ -38,7 +42,7 @@ export const productsSlice = createSlice({
     },
     showPopup(state, action: PayloadAction<boolean>) {
       state.isOpenPopup = action.payload;
-    }
+    },
   },
 });
 

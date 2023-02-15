@@ -1,6 +1,6 @@
-# Данный проект был создан в качестве тестового задания
+# This project was created as a code demo
 
-Используемые инструменты и технологии: \
+Technologies and tools used:: \
 React (with hooks), \
 Typescript (Functional components), \
 Material UI, \
@@ -13,7 +13,6 @@ babel, \
 ESLint, \
 Prettier.
 
-## Запуск проекта
-
-Для запуска проекта локально необходимо установить зависимости с помощью команды `npm install`.\
-Затем локально запустить проект с помощью команды `npm run start`.
+## Project Startup
+To start the project locally, install the dependencies by running the command `npm install`.\
+After installing the dependencies, start the project locally using the command `npm run start`.
